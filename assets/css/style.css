@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* .header was replaced with the proper tag of <header> and <nav>. */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -78,6 +80,9 @@ p {
     
 }
 
+/* The elements were moved around so they would fall in order as they do on the HTML and the webpage. Below is the id for all of the items that fell under
+the original div content class. They were compressed to make the CSS coding simplified. This also applied for the img and the h2 as well. */
+
 .contents {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,6 +113,9 @@ p {
 
 }
 
+/* The same as above, a div class was applied into the html to have items within the HTML fall under the same class so that the CSS can apply to all of them instead of having 1 for each
+individual part. This was used for the benefit, the h3 and the images */
+
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -123,6 +131,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* .footer was changed to footer so the CSS would apply to the proper tag. the footer h2 was changed to footer h4 for the same reason. */
 
 footer {
     padding: 30px;
